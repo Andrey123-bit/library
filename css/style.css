@@ -1,0 +1,32 @@
+ .main, html{
+background: url(../images/fon/fon.gif) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+padding: 20px;
+}
+table td, table th{
+border: 1px solid black;
+padding: 15px;
+color: #000;
+}
+.success{
+color: green;
+}
+.error{
+color: red;
+}
+a{
+color:#533813;
+color: #000;
+}
+.menu a{
+text-decoration: underline;
+font-size: 18px;
+}
+a:hover{color:red; }
+.active{
+text-decoration: underline;
+color: #533813;
+font-weight: bold;
+font-size: 16px;
+}
